@@ -2,9 +2,9 @@
 
 | Burger | Price | Description |
 | - | - | - |
-| Spicy Crispy Chicken Sandwich (rename) | $ |  |
+| Spicy Crispy Chicken Sandwich (rename) | $3.59 |  |
 | Stack OverFlow | $3.99 | An enormous burger inspired by the best forum ever. |
-| Chicken Bytes | $4.49 |  |
+| Chicken Bytes | $2.39 | Byte sized chicken nuggets |
 | World Famous Fries (rename) | $1.79 |  |
 | Quarter Pounder with Cheese (rename) | $3.79 |  |
 
