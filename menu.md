@@ -10,6 +10,6 @@
 
 | Drink | Price | Description |
 | - | - | - |
-| Homebrew-ed Coffee | $2.29 | Fresh coffee brewed directly from Homebrew.  |
-| Milkshake (rename) | $ | Your choice of  |
+| Homebrew-ed Coffee | $2.59 | Fresh coffee brewed directly from Homebrew.  |
+| URL Grey Tea | $1.99 | Our in-house specialty tea  |
 | Fountain Drink | $1.00 | Your choice of our ice code sodas |
