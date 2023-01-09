@@ -10,6 +10,6 @@
 
 | Drink | Price | Description |
 | - | - | - |
-| Slushy (rename) | $ |  |
+| Homebrew-ed Coffee | $2.29 | Fresh coffee brewed directly from Homebrew.  |
 | Milkshake (rename) | $ | Your choice of  |
-| Fountain Drink (rename) | $1.00 | Your choice of (Computer related name), (Computer related name), or (Computer related name) |
+| Fountain Drink | $1.00 | Your choice of our ice code sodas |
