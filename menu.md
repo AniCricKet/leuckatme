@@ -2,11 +2,11 @@
 
 | Burger | Price | Description |
 | - | - | - |
-| Spicy Crispy Chicken Sandwich (rename) | $3.59 |  |
+| Spicy Crispy Chicken Sandwich | $3.59 | Designed and made completely from Scratch, one of our most popular items.|
 | Stack OverFlow | $3.99 | An enormous burger inspired by the best forum ever. |
 | Chicken Bytes | $2.39 | Byte sized chicken nuggets |
-| World Famous Fries (rename) | $1.79 |  |
-| Quarter Pounder with Cheese (rename) | $3.79 |  |
+| Software Fries | $1.79 | Our world renowned soft and scrumptious fries. |
+| Vegetarian burger| $3.79 | A quality option for all vegetarians, consisting of numerous vegetables and a patty made of Java beans. |
 
 | Drink | Price | Description |
 | - | - | - |
