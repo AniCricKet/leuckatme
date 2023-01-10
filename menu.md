@@ -19,13 +19,23 @@
 <style>
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+body {font-family: Andale Mono, monospace;}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #a7e04c;
+  border: 2px solid #5d5b53;
+  color: white;
+}
 
 .menu {
   padding: 70px 25px;
   width: 100%;
   background: #1a1a1a;
-  text-align: left;
+  text-align: center;
 }
 
 .menu ul {
@@ -40,16 +50,6 @@ body {font-family: Verdana, sans-serif;}
   letter-spacing: 3px;
 }
 
-.menu .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.menu .next {
-  float: right;
-  padding-top: 10px;
-}
-
 .ItemPriceDescription {
   margin: 0;
   padding: 10px 0;
@@ -58,7 +58,7 @@ body {font-family: Verdana, sans-serif;}
 
 .ItemPriceDescription li {
   display: inline-block;
-  width: 13.6%;
+  width: 30%;
   color: white;
   text-align: center;
 }
@@ -72,7 +72,7 @@ body {font-family: Verdana, sans-serif;}
 .info li {
   list-style-type: none;
   display: inline-block;
-  width: 13.6%;
+  width: 30%;
   text-align: center;
   margin-bottom: 5px;
   font-size:12px;
@@ -81,21 +81,23 @@ body {font-family: Verdana, sans-serif;}
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-  .ItemPriceDescription li, .info li {width: 13.1%;}
+  .ItemPriceDescription li, .info li {width: 25.3%;}
 }
 
 @media screen and (max-width: 420px) {
-  .ItemPriceDescription li, .info li {width: 12.5%;}
+  .ItemPriceDescription li, .info li {width: 25.2%;}
   .info li .active {padding: 2px;}
 }
 
 @media screen and (max-width: 290px) {
-  .ItemPriceDescription li, .info li {width: 12.2%;}
+  .ItemPriceDescription li, .info li {width: 24.5%;}
 }
 
 </style>
 </head>
 <body>
+
+<div class="sticky">I am sticky!</div>
 
 <div class="menu">      
   <ul>
@@ -118,25 +120,9 @@ body {font-family: Verdana, sans-serif;}
   <li></li>
   <li></li>
   <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>Stack OverFlow</li>
   <li>$3.99</li>
   <li>An enormous beef burger inspired by the best forum ever</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li></li>
   <li></li>
   <li></li>
@@ -146,25 +132,9 @@ body {font-family: Verdana, sans-serif;}
   <li></li>
   <li></li>
   <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>Software Fries</li>
   <li>$1.79</li>
   <li>Our world renowned soft and scrumptious fries</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li></li>
   <li></li>
   <li></li>
@@ -194,25 +164,9 @@ body {font-family: Verdana, sans-serif;}
   <li></li>
   <li></li>
   <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>URL Grey Tea</li>
   <li>$1.99</li>
   <li>Our in-house specialty tea</li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li></li>
   <li></li>
   <li></li>
