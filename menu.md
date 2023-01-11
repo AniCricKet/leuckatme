@@ -21,19 +21,9 @@
 ul {list-style-type: none;}
 body {font-family: Andale Mono, monospace;}
 
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 5px;
-  background-color: #a7e04c;
-  border: 2px solid #5d5b53;
-  color: white;
-}
-
 .menu {
   padding: 70px 25px;
-  width: 100%;
+  width: 93%;
   background: #1a1a1a;
   text-align: center;
 }
@@ -96,8 +86,6 @@ div.sticky {
 </style>
 </head>
 <body>
-
-<div class="sticky">I am sticky!</div>
 
 <div class="menu">      
   <ul>
