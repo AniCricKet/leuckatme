@@ -43,23 +43,9 @@
     cursor: pointer;
   }
 
-<<<<<<< HEAD
   button:hover {
     background-color: #4caf50;
   }
-=======
-button {
-  width: 100%;
-  background-color: #33a354;
-  color: #f6f6ef;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: 'Source Code Pro', monospace;
-}
->>>>>>> 7b8b1c6a41127236f71cac7495c5b95a85eb4ea5
 
   .login-link a {
     color: #ace34b;
