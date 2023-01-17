@@ -17,14 +17,11 @@
 <html>
 <head>
 <style>
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Andale Mono, monospace;}
 
 .menu {
   padding: 70px 25px;
   width: 93%;
-  background: #1a1a1a;
+  background: #201c1c;
   text-align: center;
 }
 
@@ -43,7 +40,7 @@ body {font-family: Andale Mono, monospace;}
 .ItemPriceDescription {
   margin: 0;
   padding: 10px 0;
-  background-color: #1a1a1a;
+  background-color: #201c1c;
 }
 
 .ItemPriceDescription li {
@@ -55,7 +52,7 @@ body {font-family: Andale Mono, monospace;}
 
 .info {
   padding: 10px 0;
-  background: #1a1a1a;
+  background: #201c1c;
   margin: 0;
 }
 
