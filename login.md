@@ -1,24 +1,8 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Burger Bytes Login</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <table>
-          <tr>
-              <td><a href="/">Home</a></td>
-              <td><a href="/hours">Hours</a></td>
-              <td><a href="/menu">Menu</a></td>
-              <td><a href="/gallery">Gallery</a></td>
-              <td><a href="/login">Login</a></td>
-              <td><a href="/employment">Employment</a></td>
-          </tr>
-      </table>
-      </div>
-    </header>
     <div class="main-container">
       <div class="login-container">
         <form>
@@ -45,36 +29,12 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
-header {
-  background-color: #444;
-  color: #fff;
-  padding: 10px;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-}
-
-header a {
-  margin: 0 30px;
-}
-
-header a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-header a:hover {
-  color: #ccc;
-}
-
 .main-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-top: -90px;
 }
 
 .login-container {
@@ -84,6 +44,7 @@ header a:hover {
   border-radius: 10px;
   width: 300px;
   text-align: center;
+  margin-top: -90px;
 }
 
 form {
@@ -103,8 +64,8 @@ input {
 
 button {
   width: 100%;
-  background-color: #f6f6ef;
-  color: #444;
+  background-color: #33a354;
+  color: #f6f6ef;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;

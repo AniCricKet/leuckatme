@@ -1,24 +1,8 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Burger Bytes Sign Up</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <table>
-          <tr>
-              <td><a href="/">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-              <td><a href="/hours">Hours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-              <td><a href="/menu">Menu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-              <td><a href="/gallery">Gallery&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-              <td><a href="/login">Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-              <td><a href="/employment">Employment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></td>
-          </tr>
-      </table>
-      </div>
-    </header>
     <div class="main-container">
       <div class="signup-container" style="width:300px; height:300px;">
         <form style="width: 100%; height:100%;">
@@ -35,36 +19,13 @@
           <button type="submit">Submit</button>
        
 <style>
-  header {
-  display: flex;
-  justify-content: center;
-}
-  header a {
-    margin: 0 30px;
-  }
-
-  body {
-  background-color: #2f2f2f;
+body {
+  background-color: #191919;
+  margin-top: 0px;
 }
 
 body {
   font-family: 'Source Code Pro', monospace;
-}
-
-header {
-  background-color: #444;
-  color: #fff;
-  padding: 10px;
-}
-
-header a {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-header a:hover {
-  color: #ccc;
 }
 
 .main-container {
@@ -72,18 +33,20 @@ header a:hover {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin-top: -90px;
 }
 
 .signup-container {
   background-color: #444;
   color: #fff;
   padding: 20px;
+  margin-top: -90px;
 }
 
 button {
   width: 100%;
-  background-color: #f6f6ef;
-  color: #444;
+  background-color: #33a354;
+  color: #f6f6ef;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
