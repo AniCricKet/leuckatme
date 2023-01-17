@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -36,38 +35,39 @@
   </body>
 </html>
 
-
+<html>
+<head>
 <style>
   header a {
   padding: 20px;
 }
 
-  header {
+header {
   padding-top: 60px;
   display: flex;
   justify-content: center;
 }
 
-  header {
+header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #1a1a1a;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #ccc;
 }
 
-  header {
-  background-color: #fff;
+header {
+  background-color: #1a1a1a;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #ccc;
 }
 
 header a {
-  color: #000;
+  color: #ace34b;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -85,16 +85,16 @@ header table {
   margin: 0;
 }
 
-  body {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f2f2f2;
+  background-color: #1a1a1a;
 }
 
 .login-container {
-  background-color: #fff;
+  background-color: #1a1a1a;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #ccc;
@@ -103,7 +103,7 @@ header table {
 }
 
 .signup-link a{
-  color: blue;
+  color: #ace34b;
   text-align: center;
   display: block;
   text-decoration: underline;
@@ -142,3 +142,5 @@ h2 {
 }
 
 </style>
+</html>
+</html>
