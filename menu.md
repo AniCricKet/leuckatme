@@ -21,7 +21,6 @@
 .menu {
   padding: 70px 25px;
   width: 93%;
-  background: #201c1c;
   text-align: center;
 }
 
@@ -40,7 +39,6 @@
 .ItemPriceDescription {
   margin: 0;
   padding: 10px 0;
-  background-color: #201c1c;
 }
 
 .ItemPriceDescription li {
@@ -52,7 +50,6 @@
 
 .info {
   padding: 10px 0;
-  background: #201c1c;
   margin: 0;
 }
 
