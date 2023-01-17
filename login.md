@@ -71,6 +71,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: 'Source Code Pro', monospace;
 }
 
 button:hover {
