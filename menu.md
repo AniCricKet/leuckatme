@@ -120,7 +120,7 @@
   <li></li>
   <li></li>
   <li></li>
-  <li>Vegetarian burger</li>
+  <li>Vegetarian Burger</li>
   <li>$3.79</li>
   <li>A quality option for all vegetarians, consisting of numerous vegetables and a patty made of Java beans</li>
 </ul>
