@@ -36,14 +36,14 @@
   letter-spacing: 3px;
 }
 
-.ItemPriceDescription {
+.ItemPriceDescriptionPicture {
   margin: 0;
   padding: 10px 0;
 }
 
-.ItemPriceDescription li {
+.ItemPriceDescriptionPicture li {
   display: inline-block;
-  width: 30%;
+  width: 22%;
   color: white;
   text-align: center;
 }
@@ -56,7 +56,7 @@
 .info li {
   list-style-type: none;
   display: inline-block;
-  width: 30%;
+  width: 22%;
   text-align: center;
   margin-bottom: 5px;
   font-size:12px;
@@ -65,16 +65,16 @@
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-  .ItemPriceDescription li, .info li {width: 25.3%;}
+  .ItemPriceDescriptionPicture li, .info li {width: 25.3%;}
 }
 
 @media screen and (max-width: 420px) {
-  .ItemPriceDescription li, .info li {width: 25.2%;}
+  .ItemPriceDescriptionPicture li, .info li {width: 25.2%;}
   .info li .active {padding: 2px;}
 }
 
 @media screen and (max-width: 290px) {
-  .ItemPriceDescription li, .info li {width: 24.5%;}
+  .ItemPriceDescriptionPicture li, .info li {width: 24.5%;}
 }
 
 </style>
@@ -89,40 +89,50 @@
   </ul>
 </div>
 
-<ul class="ItemPriceDescription">
+<ul class="ItemPriceDescriptionPicture">
   <li>Burger</li>
   <li>Price</li>
   <li>Description</li>
+  <li>Picture</li>
 </ul>
 
 <ul class="info">  
   <li>Spicy Crispy Chicken Sandwich</li>
   <li>$3.59</li>
   <li>Designed and made completely from Scratch, one of our most popular items</li>
+  <img src="/menu/SpicyCrispyChickenSandwich.png" alt="Spicy Crispy Chicken Sandwich" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>Stack OverFlow</li>
   <li>$3.99</li>
   <li>An enormous beef burger inspired by the best forum ever</li>
+  <img src="/menu/StackOverflow.png" alt="StackOverflow" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>Chicken Bytes</li>
   <li>$2.39</li>
   <li>Byte sized chicken nuggets</li>
+  <img src="/menu/ChickenBytes.png" alt="Chicken Bytes" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>Software Fries</li>
   <li>$1.79</li>
   <li>Our world renowned soft and scrumptious fries</li>
+  <img src="/menu/SoftwareFries.png" alt="Software Fries" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>Vegetarian Burger</li>
   <li>$3.79</li>
   <li>A quality option for all vegetarians, consisting of numerous vegetables and a patty made of Java beans</li>
+  <img src="/menu/VegetarianBurger.png" alt="Vegetarian Burger" width="250px">
 </ul>
 
 <div class="menu">      
@@ -133,7 +143,7 @@
   </ul>
 </div>
 
-<ul class="ItemPriceDescription">
+<ul class="ItemPriceDescriptionPicture">
   <li>Drink</li>
   <li>Price</li>
   <li>Description</li>
@@ -143,15 +153,20 @@
   <li>Homebrew-ed Coffee</li>
   <li>$2.59</li>
   <li>Fresh coffee brewed directly from Homebrew</li>
+  <img src="/menu/HomebrewedCoffee.png" alt="Homebrew-ed Coffee" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>URL Grey Tea</li>
   <li>$1.99</li>
   <li>Our in-house specialty tea</li>
+  <img src="/menu/URLGreyTea.png" alt="URL Grey Tea" width="250px">
+  <li></li>
   <li></li>
   <li></li>
   <li></li>
   <li>Fountain Drink</li>
   <li>$1.49</li>
   <li>Your choice of our ice code sodas</li>
+  <img src="/menu/FountainDrink.png" alt="Fountain Drink" width="250px">
