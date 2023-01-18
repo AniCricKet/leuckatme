@@ -72,3 +72,30 @@
     </div>
   </div>
 </body>
+
+<form>
+  <input type="text" id="input-field">
+  <button type="submit" id="submit-button">Submit</button>
+</form>
+
+<script>
+  const submitButton = document.getElementById("submit-button");
+  submitButton.addEventListener("click", function(event) {
+    event.preventDefault(); // prevent the form from submitting
+
+    const inputField = document.getElementById("input-field");
+    const data = { input: inputField.value };
+
+    fetch("/submit", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: { "Content-Type": "application/json" }
+    })
+    .then(response => {
+      console.log("Success:", response);
+    })
+    .catch(error => {
+      console.error("Error:", error);
+    });
+  });
+</script>
