@@ -101,38 +101,22 @@
   <li>$3.59</li>
   <li>Designed and made completely from Scratch, one of our most popular items</li>
   <img src="/menu/SpicyCrispyChickenSandwich.png" alt="Spicy Crispy Chicken Sandwich" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>Stack OverFlow</li>
   <li>$3.99</li>
   <li>An enormous beef burger inspired by the best forum ever</li>
   <img src="/menu/StackOverflow.png" alt="StackOverflow" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>Chicken Bytes</li>
   <li>$2.39</li>
   <li>Byte sized chicken nuggets</li>
-  <img src="/menu/ChickenBytes.png" alt="Chicken Bytes" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <img src="/menu/ChickenBytes.png" alt="Chicken Bytes" width="200px">
   <li>Software Fries</li>
   <li>$1.79</li>
   <li>Our world renowned soft and scrumptious fries</li>
-  <img src="/menu/SoftwareFries.png" alt="Software Fries" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <img src="/menu/SoftwareFries.png" alt="Software Fries" width="150px">
   <li>Vegetarian Burger</li>
   <li>$3.79</li>
   <li>A quality option for all vegetarians, consisting of numerous vegetables and a patty made of Java beans</li>
-  <img src="/menu/VegetarianBurger.png" alt="Vegetarian Burger" width="250px">
+  <img src="/menu/VegetarianBurger.png" alt="Vegetarian Burger" width="150px">
 </ul>
 
 <div class="menu">      
@@ -154,19 +138,31 @@
   <li>$2.59</li>
   <li>Fresh coffee brewed directly from Homebrew</li>
   <img src="/menu/HomebrewedCoffee.png" alt="Homebrew-ed Coffee" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>URL Grey Tea</li>
   <li>$1.99</li>
   <li>Our in-house specialty tea</li>
   <img src="/menu/URLGreyTea.png" alt="URL Grey Tea" width="250px">
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
   <li>Fountain Drink</li>
   <li>$1.49</li>
   <li>Your choice of our ice code sodas</li>
-  <img src="/menu/FountainDrink.png" alt="Fountain Drink" width="250px">
+  <img src="/menu/FountainDrink.png" alt="Fountain Drink" width="200px">
+
+
+<script>
+  var count = 0;
+
+  function increment() {
+    count++;
+    document.getElementById("counter").innerHTML = count;
+  }
+
+  function decrement() {
+    count--;
+    document.getElementById("counter").innerHTML = count;
+  }
+</script>
+<body>
+  <button onclick="increment()">+</button>
+  <span id="counter">0</span>
+  <button onclick="decrement()">-</button>
+</body>
